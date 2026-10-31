@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrolling Bio Box</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f5f9;
+            text-align: center;
+        }
+
+        /* Profile Card */
+        .card {
+            width: 300px;
+            background-color: white;
+            border: 2px solid blue;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 50px auto;
+        }
+
+        /* Profile Photo */
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid blue;
+            object-fit: cover;
+        }
+
+        h2 {
+            color: blue;
+            margin: 10px;
+        }
+
+        /* 6.3 Scrolling Bio Box */
+        .bio {
+            height: 120px;
+            overflow: auto;
+            border: 1px solid gray;
+            padding: 10px;
+            margin-top: 15px;
+            text-align: left;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img
+            src="https://placehold.co/200x200/2563eb/ffffff?text=Rajeev"
+            alt="Profile Photo"
+            class="avatar"
+        >
+
+        <h2>Rajeev Yadav</h2>
+
+        <p>B.Tech CSE Student</p>
+
+        <div class="bio">
+
+            <h3>About Me</h3>
+
+            <p>
+                Hello! My name is Rajeev Yadav.
+                I am a Computer Science Engineering student.
+
+                I love learning HTML, CSS, Java and JavaScript.
+
+                My hobbies are coding, learning new technologies
+                and creating websites.
+
+                My goal is to become a good software engineer.
+
+                I believe in hard work and continuous learning.
+                Every day I try to improve my programming skills.
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
