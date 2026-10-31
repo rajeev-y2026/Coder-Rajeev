@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Cards</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            background-color: #f1f5f9;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        /* First Card */
+        .card {
+            width: 280px;
+            background-color: white;
+            border: 3px solid blue;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 4px solid blue;
+            object-fit: cover;
+        }
+
+        .card h2 {
+            color: blue;
+            margin: 10px;
+        }
+
+        /* Second Card */
+        .card-two {
+            border-color: green;
+        }
+
+        .card-two .avatar {
+            border-color: green;
+        }
+
+        .card-two h2 {
+            color: green;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>My Profile Cards</h1>
+
+    <div class="container">
+
+        <!-- First Card -->
+        <div class="card">
+
+            <img src="https://placehold.co/200x200/2563eb/ffffff?text=Rajeev"
+                 alt="Profile Photo"
+                 class="avatar">
+
+            <h2>Rajeev Yadav</h2>
+            <p>B.Tech CSE Student</p>
+
+        </div>
+
+        <!-- Second Card -->
+        <div class="card card-two">
+
+            <img src="https://placehold.co/200x200/16a34a/ffffff?text=Student"
+                 alt="Profile Photo"
+                 class="avatar">
+
+            <h2>My Friend</h2>
+            <p>Web Developer</p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
