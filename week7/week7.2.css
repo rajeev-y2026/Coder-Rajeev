@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2874A6;
+    color: white;
+
+    height: 400px;
+    text-align: center;
+    gap: 20px;
+}
+
+.banner h1 {
+    font-size: 35px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner button {
+    background-color: white;
+    color: #2874A6;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
